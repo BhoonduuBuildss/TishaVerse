@@ -1,0 +1,292 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Friendship Day 💛</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&family=Caveat:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <!-- Background -->
+    <div class="gradient"></div>
+
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+
+    <!-- Floating Hearts -->
+   
+
+    <!-- Petals -->
+    <div class="petals">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- ===========================
+         LANDING PAGE
+    ============================ -->
+
+    <section id="landing" class="page active">
+
+        <div class="hero-left">
+
+            <p class="small">
+            Attention, Miss Ketchup🎀
+            </p>
+
+            <h1>
+                
+  Screenshots,<br>
+  Smiles,<br>
+  Stupid Jokes🌸
+
+            </h1>
+
+            <p class="intro">
+                 One week of knowing you and I already have enough material for an entire documentary..
+                <br><br>
+                Here are some moments that were too good to leave in the chat.
+                <br><br>
+                Enjoy your fame, 
+                <strong>Tisha Ketchup</strong> 🌸
+            </p>
+
+            <button id="openBtn">
+               Step Into the Shenanigans 🎀
+            </button>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="envelope">
+
+                <div class="letter">
+                    <p>
+                        The<br>
+                        <strong>Tisha Files 🌸</strong>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===========================
+         MEMORY PAGE
+    ============================ -->
+
+    <section id="memory" class="page">
+
+        <div class="left">
+
+            <div id="chapter">
+                Chapter
+            </div>
+
+            <h1 id="title">
+                Title
+            </h1>
+
+            <p id="message">
+                Message goes here.
+            </p>
+
+            <!-- Progress -->
+            <div class="progressBar">
+                <div id="progressFill"></div>
+            </div>
+
+            <div class="counter" id="count">
+                1 / 14
+            </div>
+
+            <div class="controls">
+
+                <button id="playMusic">
+                    🎵 Play Memory
+                </button>
+
+                <button id="nextBtn">
+                    Next →
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <div class="polaroid">
+
+                <div class="tape"></div>
+
+                <img id="memoryImage"
+                     src="images/1.jpg"
+                     alt="Memory">
+
+                <div class="caption">
+                    our little chaos ♡
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+        <!-- ===========================
+         ENDING PAGE
+    ============================ -->
+
+    <section id="ending" class="page">
+
+        <div class="letterCard">
+
+            <h1>
+                To Be Continued…
+            </h1>
+
+            <p>
+
+                Some people just make conversations a little more fun, and life a little more colourful.
+                <br><br>
+
+            I'm glad we crossed paths, Tisha.
+
+                <br><br>
+
+                Here's to more random conversations, unnecessary bakbak, stupid nicknames, and memories we haven't made yet
+                <br><br>
+
+                See you at Mandi !!
+
+                <br><br>
+
+
+            </p>
+
+            <button id="openLast">
+                One Last Memory 💛
+            </button>
+
+            <h2>
+                ~ Bed
+            </h2>
+
+        </div>
+
+    </section>
+
+    <!-- ===========================
+         FINAL PAGE
+    ============================ -->
+
+    <section id="lastPage" class="page">
+
+        <div class="finalScene">
+
+            <div class="finalPhoto">
+
+                <img
+                    src="images/final.jpg"
+                    alt="Final Memory">
+
+            </div>
+
+            <div class="finalText">
+
+                <h1>
+                    Thank You For Everything 💛
+                </h1>
+
+                <p>
+
+                    Somewhere between all the random conversations and stupid jokes, 
+                    
+                    you became someone I’m truly grateful to have in my life. 
+
+                    <br><br>
+
+                    And I'm glad I got to know you, Tisha 💛
+
+                    <br><br>
+
+                    
+            
+
+                    You'll forever be my
+                    <strong>"Main Kabhi Bhoolunga Na Tujhe, Chahe Tu Mujhko Dena Bhoola"</strong>. 💛
+
+                </p>
+
+                <div class="secretMessage">
+
+                    P.S.
+
+                    If life ever becomes too noisy...
+
+                    I hope you remember there'll always be one fellow bhondu
+                    cheering for you. 🌸
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Floating hearts -->
+
+    <div id="heartContainer"></div>
+
+    <!-- Sparkles -->
+
+    <div id="sparkles"></div>
+
+    <!-- Audio -->
+
+    <audio
+        id="bgMusic"
+        preload="auto">
+    </audio>
+
+    <audio
+        id="finalMusic"
+        src="music/final.mp3"
+        preload="auto">
+    </audio>
+
+    <!-- Confetti -->
+
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
